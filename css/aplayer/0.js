@@ -1,0 +1,1 @@
+$(document).on("pjax:start",function(){if(window.aplayers){for(let a=0;a<window.aplayers.length;a++){window.aplayers[a].destroy()}window.aplayers=[]}});
